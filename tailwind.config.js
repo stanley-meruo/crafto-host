@@ -18,7 +18,9 @@ module.exports = {
         'header-A-bg': "url('/images/demo-hosting-header-bg.jpg')",
         'header-B-bg': "url('/images/demo-hosting-home-bg.jpg')",
         'footer-bg': "url('/images/demo-hosting-footer-bg.jpg')",
-        'section-A-bg': "url('.images/demo-hosting-home-06.jpg')",
+        'section-A-bg': "url('/images/demo-hosting-home-06.jpg')",
+        'about-A-bg': "url('/images/demo-hosting-about-bg.jpg')",
+        'about-B-bg': "url('/images/demo-hosting-about-02.jpg')",
       }
     },
   },

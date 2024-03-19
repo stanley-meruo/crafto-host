@@ -657,6 +657,10 @@ video {
   right: 4rem;
 }
 
+.right-64 {
+  right: 16rem;
+}
+
 .right-8 {
   right: 2rem;
 }
@@ -807,8 +811,16 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-5 {
@@ -950,6 +962,10 @@ video {
   width: 7rem;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-36 {
   width: 9rem;
 }
@@ -984,6 +1000,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-\[80\%\] {
@@ -2099,6 +2119,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -2124,6 +2149,11 @@ video {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -2144,6 +2174,14 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
+.bg-about-A-bg {
+  background-image: url('/images/demo-hosting-about-bg.jpg');
+}
+
+.bg-about-B-bg {
+  background-image: url('/images/demo-hosting-about-02.jpg');
+}
+
 .bg-footer-bg {
   background-image: url('/images/demo-hosting-footer-bg.jpg');
 }
@@ -2157,7 +2195,7 @@ video {
 }
 
 .bg-section-A-bg {
-  background-image: url('.images/demo-hosting-home-06.jpg');
+  background-image: url('/images/demo-hosting-home-06.jpg');
 }
 
 .decoration-slice {
@@ -2296,6 +2334,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .px-1 {
@@ -2473,6 +2515,18 @@ video {
   padding-left: 1rem;
 }
 
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
 .pr-16 {
   padding-right: 4rem;
 }
@@ -2487,6 +2541,30 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-left {
@@ -2557,6 +2635,11 @@ video {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -2667,6 +2750,10 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .leading-8 {
